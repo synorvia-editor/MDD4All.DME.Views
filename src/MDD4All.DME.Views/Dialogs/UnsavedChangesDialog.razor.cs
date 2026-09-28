@@ -1,5 +1,5 @@
 using MDD4All.DME.ViewModels.DataManager;
-using MDD4All.UI.BlazorComponents.Dialog;
+using Synorvia.UI.BlazorComponents.Dialog;
 using Microsoft.AspNetCore.Components;
 
 namespace MDD4All.DME.Views.Dialogs

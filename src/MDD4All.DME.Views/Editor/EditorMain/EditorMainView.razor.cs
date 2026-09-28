@@ -1,7 +1,7 @@
 ﻿using MDD4All.DME.ViewModels.DataManager;
 using MDD4All.DME.ViewModels.Editor;
 using MDD4All.DME.ViewModels.Editor.Settings;
-using MDD4All.UI.DataModels.Tree;
+using Synorvia.UI.DataModels.Tree;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.JSInterop;
