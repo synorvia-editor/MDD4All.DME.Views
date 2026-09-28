@@ -10,9 +10,9 @@
        build hands in the real one, read from src/version.txt plus the run number. -->
   <PropertyGroup>
     <Version>2.0.0.0</Version>
-    <Authors>mDuckLab</Authors>
+    <Authors>Dr. Oliver Alt, mDuckLab</Authors>
     <Company>MDD4All.de</Company>
-    <Copyright>(c) 2026 mDuckLab</Copyright>
+    <Copyright>(c) 2026 oalt, mDuckLab</Copyright>
     <Description>The Blazor components of MDD4All.DME, the object graph editor: a card per object, a shape of its own for lists, arrays and dictionaries, the start page, the settings dialog, and every text in two languages.</Description>
     <PackageTags>Blazor Editor ObjectGraph UI Components</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
