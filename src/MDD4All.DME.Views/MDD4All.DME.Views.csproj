@@ -50,18 +50,10 @@
 
   <ItemGroup>
     <PackageReference Include="MDD4All.Reflection.TypeAnalyzer" Version="2.0.0.7" />
+    <PackageReference Include="MDD4All.DME.ViewModels" Version="2.0.0.1" />
+    <PackageReference Include="MDD4All.DME.AssemblyTree" Version="2.0.0.1" />
+    <PackageReference Include="MDD4All.UI.Blazor" Version="2.1.0.2" />
+    <PackageReference Include="Synorvia.UI.BlazorComponents" Version="2.0.0.1" />
   </ItemGroup>
 
-  <!-- Waiting on a package. None of these is published yet, so no package can be built
-       from here until they are:
-         MDD4All.DME.ViewModels
-         MDD4All.DME.AssemblyTree
-         MDD4All.UI.Blazor
-         Synorvia.UI.BlazorComponents -->
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\MDD4All.DME.ViewModels\src\MDD4All.DME.ViewModels\MDD4All.DME.ViewModels-dev.csproj" />
-    <ProjectReference Include="..\..\..\MDD4All.DME.AssemblyTree\src\MDD4All.DME.AssemblyTree\MDD4All.DME.AssemblyTree-dev.csproj" />
-    <ProjectReference Include="..\..\..\MDD4All.UI.Blazor\src\MDD4All.UI.Blazor\MDD4All.UI.Blazor-dev.csproj" />
-    <ProjectReference Include="..\..\..\Synorvia.UI.BlazorComponents\src\Synorvia.UI.BlazorComponents\Synorvia.UI.BlazorComponents-dev.csproj" />
-  </ItemGroup>
 </Project>
